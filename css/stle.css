@@ -448,3 +448,99 @@ section {
     color: #666;
     line-height: 1.6;
 }
+
+
+.container__6 {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trending-offers-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.trending-offers-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.trending-offers-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.offers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.offer-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+}
+
+.offer-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.offer-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 80px;
+    text-align: start;
+    overflow: hidden;
+}
+
+.offer-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.price-delivery {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px;
+}
+
+.price {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.delivery {
+    font-size: 14px;
+    color: #999;
+}
+
+.all-offers-link {
+    display: block;
+    text-align: start;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.all-offers-link:hover {
+    text-decoration: underline;
+}
