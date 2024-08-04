@@ -456,6 +456,11 @@ section {
     padding: 20px;
 }
 
+.pattern__2,
+.all-offers-link{
+    padding-left: 6rem;
+}
+
 .trending-offers-section {
     padding: 40px 20px;
     background-color: #ffffff;
@@ -472,6 +477,12 @@ section {
     color: #666;
     margin-bottom: 40px;
     text-align: start;
+}
+
+
+.pattern{
+    display: flex;
+    justify-content: space-around;
 }
 
 .offers-grid {
@@ -505,7 +516,7 @@ section {
     font-size: 18px;
     margin: 10px 0;
     padding: 0 10px;
-    height: 80px;
+    height: 100px;
     text-align: start;
     overflow: hidden;
 }
@@ -516,9 +527,8 @@ section {
 }
 
 .price-delivery {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px 10px;
+   padding-bottom: 5px;
+   border-top: 2px solid #ccc;
 }
 
 .price {
@@ -530,6 +540,7 @@ section {
 .delivery {
     font-size: 14px;
     color: #999;
+    text-align: center;
 }
 
 .all-offers-link {
@@ -543,4 +554,177 @@ section {
 
 .all-offers-link:hover {
     text-decoration: underline;
+}
+
+
+
+.job-posting{
+    background-color: var(--blue);
+}
+
+.job-posting__section{
+    padding: 3.5rem;
+    text-align: center;
+    color: white;
+}
+
+.post__para{
+    padding-bottom: 7px;
+}
+
+.button__3{
+    padding: 12px 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: white;
+    color: var(--blue);
+}
+
+.button__3:hover{
+    background-color: var(--sky-blue);
+}
+
+
+.browse-freelancers-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.browse-freelancers-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.skills {
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.skills h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.top-skills{
+    padding-bottom: 1rem;
+}
+
+
+.wrapping ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapping li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: start;
+    line-height: 25px;
+}
+
+.wrapping{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.my-footer{
+    background-color: var(--blue);
+}
+
+.footer {
+    color: #fff;
+    padding: 4rem 2rem 0 2rem;
+}
+
+.container-5 {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.differ__cont{
+    border: none;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-first{
+    font-weight: 50;
+} 
+
+.footer-first span{
+    font-weight: 600;
+}
+
+.footer-head {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-order {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    font-size: 0.9em;
+    margin-top: 18px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-para{
+    margin-top: 1rem;
+}
+
+.footer-right,
+.left-category {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-right a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-right i{
+    font-size: 1.5rem;
+}
+.footer-language, .footer-currency {
+    margin-left: 20px;
 }
