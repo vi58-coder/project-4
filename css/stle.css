@@ -13,10 +13,11 @@
 
 body{
     font-family: 'Open Sans';
+   
 }
 
 .overall__nav{
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     border-bottom: 2px solid #ccc;
     z-index: 0;
 }
@@ -68,6 +69,7 @@ body{
     display: none;
     position: absolute;
     min-width: 160px;
+    background-color: #ddd;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 100;
 }
@@ -82,7 +84,7 @@ body{
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ccc;
 }
 
 .navbar-right {
@@ -155,6 +157,7 @@ body{
     font-weight: 500;
     margin-bottom: 20px;
     color: var(--blue);
+    max-width: 80%;
 }
 
 
@@ -485,6 +488,7 @@ section {
     justify-content: space-around;
 }
 
+
 .offers-grid {
     display: flex;
     flex-wrap: wrap;
@@ -637,6 +641,8 @@ section {
 
 .my-footer{
     background-color: var(--blue);
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .footer {
