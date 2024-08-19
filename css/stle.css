@@ -217,7 +217,7 @@ section {
 
 
 
-.btn {
+.button {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 20px;
@@ -356,9 +356,12 @@ section {
     font-size: 16px;
 }
 
-.cta-button {
+a{
+    text-decoration: none;
+}
+.btn-4 {
     padding: 10px 0px;
-    width: 50%;
+    text-align: center;
     background-color: white;
     color: #002F4B;
     border: none;
@@ -369,7 +372,7 @@ section {
     margin-top: 20px;
 }
 
-.cta-button:hover {
+.btn-4:hover {
     background-color: #e0e0e0;
 }
 
@@ -573,10 +576,10 @@ section {
 }
 
 .post__para{
-    padding-bottom: 7px;
+    padding-bottom: 20px;
 }
 
-.button__3{
+.my-button{
     padding: 12px 15px;
     border: none;
     font-size: 15px;
@@ -585,7 +588,7 @@ section {
     color: var(--blue);
 }
 
-.button__3:hover{
+.btn:hover{
     background-color: var(--sky-blue);
 }
 
@@ -692,6 +695,16 @@ section {
     margin-bottom: 10px;
     font-size: 0.9em;
 }
+
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
 
 .footer-bottom {
     padding: 20px 0;
